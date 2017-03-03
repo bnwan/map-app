@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "outDir": "./src/build",
+    "sourceMap": false,
+    "inlineSourceMap": true,
+    "noImplicitAny": true,
+    "module": "commonjs",
+    "target": "es6",
+    "jsx": "react",
+    "allowJs": true
+  },
+  "exclude": [
+    "node_modules"
+  ],
+  "files": [
+    "typings\\load-google-maps-api.d.ts"
+  ]
+}

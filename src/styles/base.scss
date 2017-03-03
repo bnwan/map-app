@@ -1,0 +1,14 @@
+$primary-colour: #000;
+$default-font-size: 14px;
+
+html, body {
+  font-family: 'Roboto', sans-serif;
+  font-size: $default-font-size;
+  color: $primary-colour;
+  height: 100%;
+}
+
+#app-container {
+  margin: 20px;
+  height: 100%;
+}

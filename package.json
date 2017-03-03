@@ -1,0 +1,46 @@
+{
+  "name": "map-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --hot --inline --content-base build/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "source-map-loader": "^0.1.6",
+    "ts-loader": "^2.0.1",
+    "tslint": "^4.5.1",
+    "tslint-loader": "^3.4.3",
+    "typescript": "^2.2.1",
+    "webpack": "^2.2.1",
+    "webpack-dev-server": "^2.4.1"
+  },
+  "dependencies": {
+    "@types/domready": "0.0.29",
+    "@types/google-maps": "^3.2.0",
+    "@types/lodash": "^4.14.54",
+    "@types/react": "^15.0.14",
+    "@types/react-dom": "^0.14.23",
+    "@types/react-redux": "^4.4.36",
+    "@types/react-tap-event-plugin": "0.0.30",
+    "@types/redux": "^3.6.0",
+    "css-loader": "^0.26.2",
+    "domready": "^1.0.8",
+    "load-google-maps-api": "0.0.2",
+    "lodash": "^4.17.4",
+    "node-sass": "^4.5.0",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "react-redux": "^5.0.3",
+    "react-tap-event-plugin": "^2.0.1",
+    "redux": "^3.6.0",
+    "redux-devtools-extension": "^2.13.0",
+    "redux-observable": "^0.13.0",
+    "rxjs": "^5.2.0",
+    "sass-loader": "^6.0.2",
+    "style-loader": "^0.13.2"
+  }
+}
